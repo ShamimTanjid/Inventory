@@ -19,6 +19,9 @@ Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::group(['middleware' => 'verified'], function(){
+
+
 
 //Employee Route are here.............
 Route::get('/add-employee', 'EmployeeController@index')->name('add.employee');
@@ -139,4 +142,6 @@ Route::post('/cart-update/{rowId}', 'CartController@cartUpdate');
 Route::get('cart-remove/{rowId}', 'CartController@cartRemove');
 Route::post('/create-invoice', 'CartController@createinvoice');
 Route::post('/final-invoice', 'CartController@finalinvoice');
+
+});
 

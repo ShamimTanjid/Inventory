@@ -131,6 +131,9 @@
                         <div class="col-sm-7">
                             <a href="{{route('password.request') }}"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
                         </div>
+                        <div class="col-sm-5 text-right">
+                            <a href="{{ route('register') }}">Create an account</a>
+                        </div>
                         
                     </div>
                 </form> 
