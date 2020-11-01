@@ -45,7 +45,7 @@
                 <div class="topbar-left">
 
                     <div class="text-center">
-                       <h3 style="color: #424242;text-align: center;padding-top: 2px">Inventory Managment</h3>
+                       <h4 style="color: #424242;text-align: center;padding-top: 2px">Inventory Management</h4>
                     </div>
                 </div>
                 <!-- Button mobile view to collapse sidebar menu -->
@@ -155,13 +155,7 @@
                                     <li><a href="{{route('success.order')}}">Success Order</a></li>    
                                 </ul>
                             </li>
-                           <li class="has_sub">
-                            <a href="#" class="waves-effect"><i class="md md-palette"></i> <span> Sales Report </span> <span class="pull-right"><i class="md md-add"></i></span></a>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">First</a></li>
-                                    <li><a href="#">Second</a></li>    
-                                </ul>
-                            </li>
+                           
                             <li class="has_sub">
                                 <a href="#" class="waves-effect"><i class="md md-palette"></i> <span> Attendence </span> <span class="pull-right"><i class="md md-add"></i></span></a>
                                 <ul class="list-unstyled">
